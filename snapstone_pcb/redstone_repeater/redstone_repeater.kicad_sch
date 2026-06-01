@@ -932,6 +932,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 81.28) (xy 153.67 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fd80e7d-ab3d-4b96-9048-667014338e1c")
+	)
+	(wire
+		(pts
 			(xy 207.01 96.52) (xy 210.82 96.52)
 		)
 		(stroke
@@ -1012,6 +1022,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 86.36) (xy 142.24 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c5de49-2ff2-41d4-a67f-bc5621de1140")
+	)
+	(wire
+		(pts
 			(xy 218.44 58.42) (xy 220.98 58.42)
 		)
 		(stroke
@@ -1079,6 +1099,16 @@
 			(type default)
 		)
 		(uuid "89b3dc26-17b2-419e-9405-5d650d2f4bf2")
+	)
+	(wire
+		(pts
+			(xy 152.4 83.82) (xy 153.67 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b855830-6bf3-4184-b434-73890557981a")
 	)
 	(wire
 		(pts
@@ -1172,6 +1202,26 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 83.82) (xy 132.08 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beeb62b5-57ec-4376-94e8-ba3736b7c666")
+	)
+	(wire
+		(pts
+			(xy 132.08 81.28) (xy 140.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4637ce0-6d66-4c16-9e4c-8e1095680aeb")
+	)
+	(wire
+		(pts
 			(xy 184.15 86.36) (xy 193.04 86.36)
 		)
 		(stroke
@@ -1199,6 +1249,36 @@
 			(type default)
 		)
 		(uuid "ce53d3be-f04f-49b5-bde5-9af7a9e15c5b")
+	)
+	(wire
+		(pts
+			(xy 133.35 86.36) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30ecc1d-cfc6-4a6f-a2b3-947c31bfce87")
+	)
+	(wire
+		(pts
+			(xy 149.86 86.36) (xy 153.67 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e731fb63-ba29-4e11-a438-202c7608a01c")
+	)
+	(wire
+		(pts
+			(xy 140.97 86.36) (xy 140.97 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf86623-4ea4-410d-9330-ea31cb192b42")
 	)
 	(wire
 		(pts
@@ -1248,6 +1328,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DAT"
+		(shape bidirectional)
+		(at 133.35 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "527601df-6d77-4e3b-b74c-ad0f6612309d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.7727 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1315,6 +1417,77 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "snapstone:3_Pin_Block_Connector")
+		(at 158.75 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04630f80-5a5c-44bb-9c68-8c0fb0dc17c5")
+		(property "Reference" "C7"
+			(at 158.75 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 159.385 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3862dea3-0f5c-4f90-81b0-bd4fb9232b4d")
+		)
+		(pin "1"
+			(uuid "cc19a623-2d5f-4020-a342-51d80c5b6739")
+		)
+		(pin "3"
+			(uuid "83224079-dbfd-4a43-bc1c-ac4e4d8a248e")
+		)
+		(instances
+			(project "redstone_repeater"
+				(path "/c6e4f295-c396-42f7-a6d5-97e88b8cc9c0"
+					(reference "C7")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1658,6 +1831,78 @@
 		)
 	)
 	(symbol
+		(lib_id "snapstone:3_Pin_Block_Connector")
+		(at 127 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d8c4d2e-14b9-4100-9565-066ed61f992b")
+		(property "Reference" "C6"
+			(at 127 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 126.365 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6b115c4-263f-4fac-a8bb-61807b7fdc69")
+		)
+		(pin "1"
+			(uuid "9b21d485-6fc5-4554-8edd-b40b0ea21fc0")
+		)
+		(pin "3"
+			(uuid "65589934-e68e-48c2-b14c-b0afcbcad214")
+		)
+		(instances
+			(project "redstone_repeater"
+				(path "/c6e4f295-c396-42f7-a6d5-97e88b8cc9c0"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 227.33 115.57 90)
 		(unit 1)
@@ -1852,6 +2097,73 @@
 			(project "redstone_repeater"
 				(path "/c6e4f295-c396-42f7-a6d5-97e88b8cc9c0"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 146.05 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "643bdafa-f963-486b-93fd-9b850b8dca47")
+		(property "Reference" "R5"
+			(at 146.05 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150 ohms"
+			(at 146.05 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.796 87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5023e50-e9f3-4942-bd67-5f823eac4a16")
+		)
+		(pin "1"
+			(uuid "e149819c-0686-478e-892e-390e34d73242")
+		)
+		(instances
+			(project ""
+				(path "/c6e4f295-c396-42f7-a6d5-97e88b8cc9c0"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2262,6 +2574,204 @@
 			(project ""
 				(path "/c6e4f295-c396-42f7-a6d5-97e88b8cc9c0"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf732ca0-1188-47d4-8772-c93e8d9dadb9")
+		(property "Reference" "#PWR05"
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2649099-d578-488a-83bc-1dd1f75126e8")
+		)
+		(instances
+			(project "redstone_repeater"
+				(path "/c6e4f295-c396-42f7-a6d5-97e88b8cc9c0"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 152.4 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d268068d-927a-46da-966c-50d224709fda")
+		(property "Reference" "#PWR06"
+			(at 156.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 149.606 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "297c63a8-28ce-4d21-ab3c-db337a28f5ba")
+		)
+		(instances
+			(project "redstone_repeater"
+				(path "/c6e4f295-c396-42f7-a6d5-97e88b8cc9c0"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5793329-3983-42a2-b03b-51307f81d3d1")
+		(property "Reference" "#PWR04"
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb390d4a-e848-4698-b99b-bae8138f45f0")
+		)
+		(instances
+			(project ""
+				(path "/c6e4f295-c396-42f7-a6d5-97e88b8cc9c0"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
