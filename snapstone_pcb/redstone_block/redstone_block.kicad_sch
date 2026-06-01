@@ -188,6 +188,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Seeed_Studio_XIAO_Series:XIAO-RP2040-NORMAL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -910,7 +1083,7 @@
 	)
 	(text "Redstone Block...?\n"
 		(exclude_from_sim no)
-		(at 93.218 81.28 0)
+		(at 92.71 94.742 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -920,6 +1093,16 @@
 			)
 		)
 		(uuid "09c856a1-fe55-419c-9acc-5445f4ae6aaf")
+	)
+	(text "initial resistance α = 150 Ω"
+		(exclude_from_sim no)
+		(at 81.534 86.614 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "67079e29-5de1-4e7d-8dab-684e5c7c6b83")
 	)
 	(no_connect
 		(at 55.88 50.8)
@@ -987,7 +1170,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 69.85) (xy 105.41 69.85)
+			(xy 85.09 82.55) (xy 81.28 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1004,6 +1187,16 @@
 			(type default)
 		)
 		(uuid "6e67611f-9ca9-4f40-89bb-1090341688e9")
+	)
+	(wire
+		(pts
+			(xy 73.66 82.55) (xy 68.58 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72103d49-dfc7-4557-8528-61312abd2d6d")
 	)
 	(wire
 		(pts
@@ -1037,7 +1230,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 69.85) (xy 115.57 69.85)
+			(xy 96.52 82.55) (xy 92.71 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1091,7 +1284,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 105.41 69.85 180)
+		(at 68.58 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1101,7 +1294,7 @@
 		)
 		(uuid "6af03f55-73d6-4b3e-9c02-606b11e192fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.7962 69.85 0)
+			(at 61.9662 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1328,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 118.11 69.85 0)
+		(at 96.52 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1145,7 +1338,7 @@
 		)
 		(uuid "839c1e7a-e455-4815-8fb3-f867ae929a4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.9657 69.85 0)
+			(at 103.3757 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1224,7 +1417,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 44.45 36.83) (xy 133.35 36.83) (xy 133.35 76.2) (xy 44.45 76.2)
+				(xy 44.45 36.83) (xy 133.35 36.83) (xy 133.35 90.17) (xy 44.45 90.17)
 			)
 			(stroke
 				(width 0.381)
@@ -1234,7 +1427,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 1a4cc0b1-b458-437d-92a9-6b91ea54cd4a)
+			(uuid 65468bc4-7626-4d1f-bc66-d0741e8ce379)
 		)
 	)
 	(symbol
@@ -1342,25 +1535,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 111.76 69.85 180)
+		(lib_id "Device:R_US")
+		(at 77.47 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "da3168e3-c905-41ab-81d2-eab62e31fd75")
-		(property "Reference" "D3"
-			(at 113.3475 62.23 0)
+		(uuid "9ce8c01e-d69e-4909-b960-9621ae5a535a")
+		(property "Reference" "R1"
+			(at 77.47 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 113.3475 64.77 0)
+		(property "Value" "150 Ω"
+			(at 77.47 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1368,7 +1561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 69.85 0)
+			(at 77.216 83.566 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1377,7 +1570,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 69.85 0)
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a60cb5fc-96dd-40a7-b4e7-afbb1fe6af87")
+		)
+		(pin "1"
+			(uuid "bfd240a3-37d5-48b1-8acf-ebc9de57bef3")
+		)
+		(instances
+			(project ""
+				(path "/a21feee3-f94a-4c16-9306-59a893425ad2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 88.9 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da3168e3-c905-41ab-81d2-eab62e31fd75")
+		(property "Reference" "D3"
+			(at 90.4875 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 90.4875 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1386,7 +1647,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 111.76 69.85 0)
+			(at 88.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +1656,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 111.76 69.85 0)
+			(at 88.9 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,7 +1689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5224bbc-df35-46ba-b1af-8e97987dc134")
-		(property "Reference" "C5"
+		(property "Reference" "C1"
 			(at 125.73 52.7049 0)
 			(effects
 				(font
@@ -1485,7 +1746,7 @@
 		(instances
 			(project "redstone_block"
 				(path "/a21feee3-f94a-4c16-9306-59a893425ad2"
-					(reference "C5")
+					(reference "C1")
 					(unit 1)
 				)
 			)
