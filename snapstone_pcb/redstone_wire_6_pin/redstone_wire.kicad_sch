@@ -771,6 +771,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -867,6 +968,131 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1553,28 +1779,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 113.03 27.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "21c3e6ea-77dc-4244-ad5d-553fd5af6310")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.1743 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IN2"
 		(shape input)
 		(at 100.33 59.69 0)
@@ -1637,6 +1841,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT2"
+		(shape input)
+		(at 110.49 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "485c355b-89fe-4f88-aea4-0edd40374c0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.6667 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1707,51 +1933,7 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 39.37 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "628a28b5-3536-4604-985c-412947f87d5e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.2257 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT1"
-		(shape input)
-		(at 110.49 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "663cc759-971e-4176-b678-fc9bcb2ba926")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.6667 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT0"
+	(global_label "OUT3"
 		(shape input)
 		(at 110.49 40.64 180)
 		(fields_autoplaced yes)
@@ -1761,53 +1943,9 @@
 			)
 			(justify right)
 		)
-		(uuid "6bcf2e42-9ea4-4cae-b054-626a7691f555")
+		(uuid "6ef15054-80d7-4125-954c-ac6d45768ae0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.6667 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT2"
-		(shape input)
-		(at 110.49 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6f9d0fdb-ae61-4c52-b918-b6661fb02dcb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.6667 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT3"
-		(shape input)
-		(at 110.49 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "71c104a3-dc98-4338-bdde-fb093e357644")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.6667 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1852,6 +1990,28 @@
 		(uuid "77e14d60-12e9-44d3-a463-dd534c769950")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 38.8038 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT1"
+		(shape input)
+		(at 110.49 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "782db8fd-7b9a-44c2-9697-645734588f61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.6667 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1949,28 +2109,6 @@
 			)
 		)
 	)
-	(global_label "VCC"
-		(shape input)
-		(at 72.39 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e0fb4ec-afc2-4a1f-80f5-6bed2d015a4b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.7762 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OUT2"
 		(shape output)
 		(at 107.95 62.23 0)
@@ -2037,6 +2175,28 @@
 			)
 		)
 	)
+	(global_label "OUT0"
+		(shape input)
+		(at 110.49 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7d3e0d7-24cd-48bf-8234-efb65a3e5a9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.6667 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ON"
 		(shape input)
 		(at 100.33 67.31 0)
@@ -2059,28 +2219,6 @@
 			)
 		)
 	)
-	(global_label "VCC"
-		(shape input)
-		(at 113.03 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c6ce216e-c560-4190-8c60-4a66ccb8fdae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.4162 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IN3"
 		(shape output)
 		(at 39.37 41.91 0)
@@ -2094,28 +2232,6 @@
 		(uuid "d6fea588-dd6d-418c-bfc7-37f728192030")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 45.5 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 85.09 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e648effd-89cb-4b8d-bbf5-47f72bd8756e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.7038 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,28 +2285,6 @@
 			)
 		)
 	)
-	(global_label "VCC"
-		(shape input)
-		(at 39.37 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fbb273aa-765c-46af-83aa-e7ed77c445c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.9838 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(rule_area
 		(polyline
 			(pts
@@ -2204,7 +2298,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 13d0c22e-7982-41c9-b195-4ef487fe902f)
+			(uuid 7acddec7-861d-41f9-9a8c-d07cdb182a5d)
 		)
 	)
 	(rule_area
@@ -2220,7 +2314,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 4a9aff5d-8b2e-46a7-bcc6-0a06965278a2)
+			(uuid c7e0f70a-d80a-4962-a5d8-7d2e0a7af5e3)
 		)
 	)
 	(symbol
@@ -2284,6 +2378,73 @@
 			(project ""
 				(path "/e3c1a340-9191-4dab-a72b-edd4d4fd9dcc"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 113.03 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a98f5dc-6749-4817-a6c3-616d9b5d022a")
+		(property "Reference" "#PWR01"
+			(at 116.84 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 109.22 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49a952a9-3ea0-484c-a05e-b0a6525c48e1")
+		)
+		(instances
+			(project "redstone_wire"
+				(path "/e3c1a340-9191-4dab-a72b-edd4d4fd9dcc"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2365,6 +2526,73 @@
 			(project ""
 				(path "/e3c1a340-9191-4dab-a72b-edd4d4fd9dcc"
 					(reference "C_OUT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 85.09 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d53ce97-ab32-4f2f-afce-ca76be87e607")
+		(property "Reference" "#PWR06"
+			(at 81.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 88.9 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 85.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ddb2f06-1991-46ec-a134-c3d73bc40135")
+		)
+		(instances
+			(project "redstone_wire"
+				(path "/e3c1a340-9191-4dab-a72b-edd4d4fd9dcc"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2576,7 +2804,7 @@
 				)
 			)
 		)
-		(property "Value" "26"
+		(property "Value" "26 Ω"
 			(at 179.07 56.896 90)
 			(effects
 				(font
@@ -2783,6 +3011,141 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 113.03 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90615afc-cb4c-4e69-8339-3a2f1a5aa2bb")
+		(property "Reference" "#PWR02"
+			(at 106.68 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 27.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faf85130-307e-4d8e-9b7a-060094eef002")
+		)
+		(instances
+			(project "redstone_wire"
+				(path "/e3c1a340-9191-4dab-a72b-edd4d4fd9dcc"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 29.21 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "934ae80b-0aef-47bf-8fd4-1d18436c188e")
+		(property "Reference" "#PWR04"
+			(at 45.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbfb5118-78fc-4b82-aa1f-9368fb9198be")
+		)
+		(instances
+			(project "redstone_wire"
+				(path "/e3c1a340-9191-4dab-a72b-edd4d4fd9dcc"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "snapstone:3_Pin_Block_Connector")
 		(at 213.36 54.61 0)
 		(unit 1)
@@ -2927,6 +3290,141 @@
 			(project "snapstone_pcb"
 				(path "/e3c1a340-9191-4dab-a72b-edd4d4fd9dcc"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 72.39 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c58663e1-2edc-40d6-a61e-b1a3bf48a9e4")
+		(property "Reference" "#PWR05"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 68.58 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 72.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fe0eaef-a126-40b2-bcb4-61a42ab11ee6")
+		)
+		(instances
+			(project ""
+				(path "/e3c1a340-9191-4dab-a72b-edd4d4fd9dcc"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 39.37 26.67 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed201fab-06be-4378-bbc0-26d12956a22b")
+		(property "Reference" "#PWR03"
+			(at 35.56 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 43.18 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 39.37 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efad9305-c4bc-4032-9455-651f79673ae3")
+		)
+		(instances
+			(project "redstone_wire"
+				(path "/e3c1a340-9191-4dab-a72b-edd4d4fd9dcc"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
