@@ -2726,7 +2726,7 @@
 				)
 			)
 		)
-		(property "Value" "1000 ohms"
+		(property "Value" "1000 Ω"
 			(at 193.04 81.28 90)
 			(effects
 				(font
@@ -2926,7 +2926,7 @@
 				)
 			)
 		)
-		(property "Value" "1000 ohms"
+		(property "Value" "1000 Ω"
 			(at 193.04 100.33 90)
 			(effects
 				(font
@@ -3062,7 +3062,7 @@
 				)
 			)
 		)
-		(property "Value" "500 ohms"
+		(property "Value" "500 Ω"
 			(at 193.04 62.23 90)
 			(effects
 				(font
@@ -3709,7 +3709,7 @@
 				)
 			)
 		)
-		(property "Value" "1000 ohms"
+		(property "Value" "1000 Ω"
 			(at 193.04 119.38 90)
 			(effects
 				(font
