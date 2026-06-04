@@ -1573,6 +1573,17 @@
 		)
 		(uuid d01a832e-331b-4875-a091-103749e5c089)
 	)
+	(text "^\n|\n|\n/\n-------------  "
+		(exclude_from_sim no)
+		(at 135.382 75.946 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2be733d7-cc34-4d73-8807-9b0e60674baa")
+	)
 	(text "<--"
 		(exclude_from_sim no)
 		(at 101.346 156.21 90)
@@ -1626,6 +1637,16 @@
 			(justify left bottom)
 		)
 		(uuid "adea91fb-b126-4fc0-8026-9bf026a9bb3a")
+	)
+	(text "give control of ts\npath up here to MCU"
+		(exclude_from_sim no)
+		(at 126.746 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c858f61a-f6eb-446d-bb50-9bd68f0183c5")
 	)
 	(text "MCU"
 		(exclude_from_sim no)
@@ -2218,6 +2239,28 @@
 			)
 		)
 	)
+	(global_label "VCC"
+		(shape input)
+		(at 100.33 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bcfd1a9-b0e0-4c75-bcb9-778c014e2b42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.9438 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TDD"
 		(shape input)
 		(at 99.06 106.68 180)
@@ -2329,7 +2372,7 @@
 		)
 	)
 	(global_label "VCC"
-		(shape input)
+		(shape output)
 		(at 100.33 66.04 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2434,28 +2477,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 100.33 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d2fd64e6-6f43-4fa6-aa01-564b02caac2f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.1857 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
