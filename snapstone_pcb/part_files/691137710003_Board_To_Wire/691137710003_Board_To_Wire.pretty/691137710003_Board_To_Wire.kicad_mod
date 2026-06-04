@@ -1,0 +1,195 @@
+(footprint "691137710003_Board_To_Wire"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.135 0)
+		(layer "F.SilkS")
+		(uuid "844082ed-07b9-40d0-90db-bf3918ba7162")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "691137710003"
+		(at 4.12 5.365 0)
+		(layer "F.Fab")
+		(uuid "d5fdb0e5-80c3-4560-aee5-8d47334e1343")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "943a10fe-52d1-4c54-80fd-ee1e92d81d9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0329bb27-2625-4d94-b4ac-1acff0aab030")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.6 -3.6)
+		(end 7.6 -3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fad09ca0-13ad-42b0-a108-b81fad4673fe")
+	)
+	(fp_line
+		(start -7.6 4.1)
+		(end -7.6 -3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f83bf6f8-d9fe-4b36-98bf-390dba83b1da")
+	)
+	(fp_line
+		(start 7.6 -3.6)
+		(end 7.6 4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e71e8a24-8f45-446f-956e-eebb23fd4978")
+	)
+	(fp_line
+		(start 7.6 4.1)
+		(end -7.6 4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29040d12-b46e-4eeb-8130-d78dfb5728fc")
+	)
+	(fp_poly
+		(pts
+			(xy -7.75 -3.75) (xy 7.75 -3.75) (xy 7.75 4.25) (xy -7.75 4.25)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "aac23432-0bc0-40c2-b95e-0a83e6951bd9")
+	)
+	(fp_line
+		(start -7.5 -3.5)
+		(end 7.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52416cff-2619-4089-8556-793c3bdd16e4")
+	)
+	(fp_line
+		(start -7.5 4)
+		(end -7.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6b36119-6015-4fcd-bd5f-931201fc9085")
+	)
+	(fp_line
+		(start 7.5 -3.5)
+		(end 7.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c8aaf11-f03b-4258-8522-258a77608c80")
+	)
+	(fp_line
+		(start 7.5 4)
+		(end -7.5 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff762ed7-05d6-419a-be94-2ddea688eb9b")
+	)
+	(fp_circle
+		(center -6.3 -1.9)
+		(end -6.2 -1.9)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4ebf84de-dd61-4af2-ab5a-04f1c9f482b0")
+	)
+	(pad "1" thru_hole circle
+		(at -5 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c946b023-c5a1-4639-ba75-3512b5a7259b")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3b6fdc6c-2129-4864-9fdd-3f54fb46190d")
+	)
+	(pad "3" thru_hole circle
+		(at 5 0)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "e0f5b562-8070-4cc2-9cef-c5c01147f184")
+	)
+	(embedded_fonts no)
+	(model "${SNAPSTONE_PARTS}/691137710003_Board_To_Wire/691137710003_Board_To_Wire.stp"
+		(offset
+			(xyz 7.5 3.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
