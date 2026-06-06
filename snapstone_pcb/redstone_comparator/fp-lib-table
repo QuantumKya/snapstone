@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "TMCS1108A2UQDR_Current_Sensor")(type "KiCad")(uri "${SNAPSTONE_PARTS}/TMCS1108A2UQDR_Current_Sensor/TMCS1108A2UQDR_Current_Sensor.pretty")(options "")(descr ""))
+  (lib (name "MCP4561T_DigiPot")(type "KiCad")(uri "${SNAPSTONE_PARTS}/MCP4561T_DigiPot/MCP4561T_DigiPot.pretty")(options "")(descr ""))
 )

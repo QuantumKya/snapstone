@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2468_Battery_Holder")(type "KiCad")(uri "${SNAPSTONE_PARTS}/2468_Battery_Holder/2468_Battery_Holder.kicad_sym")(options "")(descr ""))
+)

@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "MSOP8_MC_MCH"
+			(property "Footprint" "MCP4561T_DigiPot:MSOP8_MC_MCH"
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,14 +55,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "MCP4561T-503E/MS"
@@ -1040,23 +1032,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 18.542 9.398 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "TMCS1108A2UQDR_Current_Sensor"
-				(at 18.542 6.858 0)
+			(property "Value" "TMCS1108A2UQDR"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "D0008A-IPC_A"
-				(at 18.542 6.604 0)
+			(property "Footprint" "TMCS1108A2UQDR_Current_Sensor:D0008A-IPC_A"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1066,7 +1058,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/gpn/tmcs1108"
-				(at 18.542 6.858 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1082,14 +1074,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "TMCS1108A2UQDR"
@@ -1475,7 +1459,7 @@
 	)
 	(text "Output"
 		(exclude_from_sim no)
-		(at 173.228 40.64 0)
+		(at 173.228 47.752 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1649,7 +1633,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 38.1) (xy 128.27 38.1)
+			(xy 123.19 36.83) (xy 128.27 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1809,7 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 30.48) (xy 175.26 30.48)
+			(xy 172.72 38.1) (xy 175.26 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2005,7 +1989,7 @@
 	)
 	(global_label "C_OUT"
 		(shape input)
-		(at 172.72 30.48 180)
+		(at 172.72 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2015,7 +1999,7 @@
 		)
 		(uuid "28ec61e8-6921-4440-9460-e7ad073895cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.8686 30.48 0)
+			(at 163.8686 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +2055,7 @@
 	)
 	(global_label "GND1"
 		(shape input)
-		(at 175.26 27.94 180)
+		(at 175.26 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2081,7 +2065,7 @@
 		)
 		(uuid "46fdd6f6-86a7-4459-9c35-4499959b6fd3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.1948 27.94 0)
+			(at 167.1948 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2121,7 @@
 	)
 	(global_label "VCC1"
 		(shape input)
-		(at 175.26 25.4 180)
+		(at 175.26 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2147,7 +2131,7 @@
 		)
 		(uuid "61be8250-8e75-4219-a0a4-0e60e6a0c67f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.4367 25.4 0)
+			(at 167.4367 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,9 +2493,9 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "GND1"
 		(shape input)
-		(at 128.27 38.1 0)
+		(at 128.27 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2521,7 +2505,7 @@
 		)
 		(uuid "ba04ae6e-f295-48d9-8117-7b7436eac9b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.1257 38.1 0)
+			(at 136.3352 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2533,7 +2517,7 @@
 	)
 	(global_label "DAT_OUT"
 		(shape input)
-		(at 123.19 38.1 180)
+		(at 123.19 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2543,7 +2527,7 @@
 		)
 		(uuid "c4f592e2-1c93-46cd-be8d-03ae55d24242")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.2824 38.1 0)
+			(at 112.2824 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +2672,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 105.41 33.02) (xy 142.24 33.02) (xy 142.24 43.18) (xy 105.41 43.18)
+				(xy 106.68 30.48) (xy 140.97 30.48) (xy 140.97 43.18) (xy 106.68 43.18)
 			)
 			(stroke
 				(width 0.381)
@@ -2698,71 +2682,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 36d91853-c4d1-40e3-8f4b-98f793d6f22f)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 201.93 25.4) (xy 265.43 25.4) (xy 265.43 88.9) (xy 201.93 88.9)
-			)
-			(stroke
-				(width 0.381)
-				(type solid)
-				(color 103 0 255 1)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 63d200bb-14fb-494b-87c2-f9b3465ebc13)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 19.05 19.05) (xy 87.63 19.05) (xy 87.63 54.61) (xy 19.05 54.61)
-			)
-			(stroke
-				(width 0.381)
-				(type solid)
-				(color 103 0 255 1)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 78a533d9-8d25-4f3b-91e2-0f6dfe0a7f8d)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 101.6 58.42) (xy 187.96 58.42) (xy 187.96 86.36) (xy 101.6 86.36)
-			)
-			(stroke
-				(width 0.381)
-				(type solid)
-				(color 103 0 255 1)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 82a2ab5f-15eb-400c-b81b-2addf079c741)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 201.93 25.4) (xy 250.19 25.4) (xy 250.19 44.45) (xy 201.93 44.45)
-			)
-			(stroke
-				(width 0.381)
-				(type solid)
-				(color 103 0 255 1)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 958b4bc5-ccfc-4c21-a877-c6cac8515383)
+			(uuid 61b4db80-077e-47b7-a18e-6145036e68ab)
 		)
 	)
 	(rule_area
@@ -2778,7 +2698,39 @@
 			(fill
 				(type none)
 			)
-			(uuid ace11727-2bea-432c-8e91-01c9e908dbd5)
+			(uuid 6d6bd946-c792-43e6-9912-49e72d4cc1cc)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 201.93 25.4) (xy 265.43 25.4) (xy 265.43 88.9) (xy 201.93 88.9)
+			)
+			(stroke
+				(width 0.381)
+				(type solid)
+				(color 103 0 255 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a2152b26-0ec0-4bff-99c0-a160beb660a6)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 101.6 58.42) (xy 187.96 58.42) (xy 187.96 86.36) (xy 101.6 86.36)
+			)
+			(stroke
+				(width 0.381)
+				(type solid)
+				(color 103 0 255 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a362c33a-b66c-42f5-a6e7-e8b1a10b6c9b)
 		)
 	)
 	(rule_area
@@ -2794,7 +2746,39 @@
 			(fill
 				(type none)
 			)
-			(uuid ecaf8e32-303c-4afe-85b5-1e239fea7b0a)
+			(uuid dbe815d0-47dc-4d15-b8b7-ad7b1c19bf31)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 201.93 25.4) (xy 250.19 25.4) (xy 250.19 44.45) (xy 201.93 44.45)
+			)
+			(stroke
+				(width 0.381)
+				(type solid)
+				(color 103 0 255 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid e39e5103-f76c-452a-9501-ecdc42640145)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 19.05 19.05) (xy 87.63 19.05) (xy 87.63 54.61) (xy 19.05 54.61)
+			)
+			(stroke
+				(width 0.381)
+				(type solid)
+				(color 103 0 255 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid fe601372-c793-4583-98bf-8c3ce2d76711)
 		)
 	)
 	(symbol
@@ -3150,7 +3134,7 @@
 	)
 	(symbol
 		(lib_id "snapstone:3_Pin_Block_Connector")
-		(at 180.34 33.02 0)
+		(at 180.34 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3158,7 +3142,7 @@
 		(dnp no)
 		(uuid "c01e16a9-5dc6-47a0-a0ff-1b99410d4902")
 		(property "Reference" "C_OUT1"
-			(at 177.546 34.544 0)
+			(at 177.546 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3151,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 185.42 29.21 0)
+			(at 185.42 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 33.02 0)
+			(at 180.34 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 33.02 0)
+			(at 180.34 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3178,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 33.02 0)
+			(at 180.34 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MSOP8_MC_MCH"
+		(property "Footprint" "MCP4561T_DigiPot:MSOP8_MC_MCH"
 			(at 111.76 71.12 0)
 			(effects
 				(font
