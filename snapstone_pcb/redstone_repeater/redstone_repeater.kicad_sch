@@ -1756,10 +1756,6 @@
 		(uuid "6d942a98-bbc8-4d3c-bf13-fcf264ab8c9d")
 	)
 	(no_connect
-		(at 99.06 109.22)
-		(uuid "8405f5be-10f9-4dbf-bbc6-2f82cdadae1b")
-	)
-	(no_connect
 		(at 139.7 119.38)
 		(uuid "9076e9ef-7184-40d6-995d-fad59b425d4d")
 	)
@@ -2085,16 +2081,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 149.86) (xy 143.51 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9655051-d8fc-4de1-96a1-cdd0ecd5f257")
-	)
-	(wire
-		(pts
 			(xy 213.36 104.14) (xy 209.55 104.14)
 		)
 		(stroke
@@ -2327,28 +2313,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 105.41 160.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7d6b5040-2494-4bdd-82c6-ddba8b808b83")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.5543 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TDD"
 		(shape output)
 		(at 199.39 69.85 270)
@@ -2481,9 +2445,31 @@
 			)
 		)
 	)
+	(global_label "DAT"
+		(shape input)
+		(at 99.06 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4c97a86-defc-48e6-b1ba-15be36532e97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.7486 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "AOUT"
 		(shape output)
-		(at 143.51 149.86 0)
+		(at 140.97 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2493,7 +2479,7 @@
 		)
 		(uuid "dc55ed89-f1a2-4f1a-9819-f91d6eaebc4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.2124 149.86 0)
+			(at 148.6724 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +2670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal"
 			(at 138.43 73.66 0)
 			(effects
 				(font
@@ -3227,7 +3213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal"
 			(at 95.25 73.66 0)
 			(effects
 				(font
@@ -3873,7 +3859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMCS1108A2UQDR_Current_Sensor:D0008A-IPC_A"
+		(property "Footprint" "CurrentSensorSnap:D0008A-IPC_B"
 			(at 105.41 144.78 0)
 			(effects
 				(font
