@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "691137710003"
-		(at 4.12 5.365 0)
+		(at 0 5.365 0)
 		(layer "F.Fab")
 		(uuid "d5fdb0e5-80c3-4560-aee5-8d47334e1343")
 		(effects
@@ -89,18 +89,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "29040d12-b46e-4eeb-8130-d78dfb5728fc")
-	)
-	(fp_poly
-		(pts
-			(xy -7.75 -3.75) (xy 7.75 -3.75) (xy 7.75 4.25) (xy -7.75 4.25)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.CrtYd")
-		(uuid "aac23432-0bc0-40c2-b95e-0a83e6951bd9")
 	)
 	(fp_line
 		(start -7.5 -3.5)

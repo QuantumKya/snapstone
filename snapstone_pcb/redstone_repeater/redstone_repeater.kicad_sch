@@ -475,23 +475,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 18.542 9.398 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "TMCS1108A2UQDR_Current_Sensor"
-				(at 18.542 6.858 0)
+			(property "Value" "TMCS1108A2UQDR"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "D0008A-IPC_A"
-				(at 18.542 6.604 0)
+			(property "Footprint" "TMCS1108A2UQDR_Current_Sensor:D0008A-IPC_A"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -501,7 +501,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/gpn/tmcs1108"
-				(at 18.542 6.858 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -517,14 +517,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "TMCS1108A2UQDR"
@@ -1413,7 +1405,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 5.588 5.334 0)
+				(at 0.508 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1428,7 +1420,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "691137710003_Board_To_Wire:691137710003_Board_To_Wire"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1572,17 +1564,6 @@
 			(type none)
 		)
 		(uuid d01a832e-331b-4875-a091-103749e5c089)
-	)
-	(text "^\n|\n|\n/\n-------------  "
-		(exclude_from_sim no)
-		(at 135.382 75.946 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2be733d7-cc34-4d73-8807-9b0e60674baa")
 	)
 	(text "<--"
 		(exclude_from_sim no)
@@ -2653,8 +2634,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04630f80-5a5c-44bb-9c68-8c0fb0dc17c5")
-		(property "Reference" "C7"
-			(at 138.43 61.976 0)
+		(property "Reference" "C_OUT1"
+			(at 139.192 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,7 +2651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal"
+		(property "Footprint" "691137710003_Board_To_Wire:691137710003_Board_To_Wire"
 			(at 138.43 73.66 0)
 			(effects
 				(font
@@ -2709,7 +2690,7 @@
 		(instances
 			(project "redstone_repeater"
 				(path "/c6e4f295-c396-42f7-a6d5-97e88b8cc9c0"
-					(reference "C7")
+					(reference "C_OUT1")
 					(unit 1)
 				)
 			)
@@ -2741,7 +2722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P25.40mm_Horizontal"
+		(property "Footprint" "CF12JT150R_Resistor_150:STA_CF12_STP"
 			(at 193.294 84.074 90)
 			(effects
 				(font
@@ -2941,7 +2922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P25.40mm_Horizontal"
+		(property "Footprint" "CF12JT150R_Resistor_150:STA_CF12_STP"
 			(at 193.294 103.124 90)
 			(effects
 				(font
@@ -3077,7 +3058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P25.40mm_Horizontal"
+		(property "Footprint" "CF12JT150R_Resistor_150:STA_CF12_STP"
 			(at 193.294 65.024 90)
 			(effects
 				(font
@@ -3196,8 +3177,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d8c4d2e-14b9-4100-9565-066ed61f992b")
-		(property "Reference" "C6"
-			(at 95.25 61.976 0)
+		(property "Reference" "C_IN1"
+			(at 94.488 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,7 +3194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal"
+		(property "Footprint" "691137710003_Board_To_Wire:691137710003_Board_To_Wire"
 			(at 95.25 73.66 0)
 			(effects
 				(font
@@ -3252,7 +3233,7 @@
 		(instances
 			(project "redstone_repeater"
 				(path "/c6e4f295-c396-42f7-a6d5-97e88b8cc9c0"
-					(reference "C6")
+					(reference "C_IN1")
 					(unit 1)
 				)
 			)
@@ -3455,7 +3436,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P25.40mm_Horizontal"
+		(property "Footprint" "CF12JT150R_Resistor_150:STA_CF12_STP"
 			(at 119.126 72.136 90)
 			(effects
 				(font
@@ -3724,7 +3705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P25.40mm_Horizontal"
+		(property "Footprint" "CF12JT150R_Resistor_150:STA_CF12_STP"
 			(at 193.294 122.174 90)
 			(effects
 				(font
@@ -3859,7 +3840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CurrentSensorSnap:D0008A-IPC_B"
+		(property "Footprint" "TMCS1108A2UQDR_Current_Sensor:D0008A-IPC_A"
 			(at 105.41 144.78 0)
 			(effects
 				(font

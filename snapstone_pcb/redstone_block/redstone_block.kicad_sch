@@ -873,22 +873,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 127 57.15) (xy 167.64 57.15) (xy 167.64 78.74) (xy 127 78.74)
-			)
-			(stroke
-				(width 0.381)
-				(type solid)
-				(color 103 0 255 1)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 9d534b8c-b1c5-4cda-99eb-295da384845c)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 50.8 57.15) (xy 114.3 57.15) (xy 114.3 93.98) (xy 50.8 93.98)
 			)
 			(stroke
@@ -899,7 +883,23 @@
 			(fill
 				(type none)
 			)
-			(uuid e3298490-f0ac-4d10-a39a-8f47543b2f3c)
+			(uuid 47ce251e-06a3-4619-a969-3aba8b8672f5)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 127 57.15) (xy 167.64 57.15) (xy 167.64 78.74) (xy 127 78.74)
+			)
+			(stroke
+				(width 0.381)
+				(type solid)
+				(color 103 0 255 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid bea3b5dc-3f9e-4a66-857c-0c5fa2075c89)
 		)
 	)
 	(symbol
