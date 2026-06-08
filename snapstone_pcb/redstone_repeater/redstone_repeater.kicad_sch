@@ -2758,7 +2758,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CF12JT150R_Resistor_150:STA_CF12_STP"
 			(at 135.636 117.856 90)
 			(hide yes)
 			(show_name no)
@@ -3081,7 +3081,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CF12JT150R_Resistor_150:STA_CF12_STP"
 			(at 117.094 90.424 90)
 			(hide yes)
 			(show_name no)
@@ -3357,7 +3357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CF12JT150R_Resistor_150:STA_CF12_STP"
 			(at 136.144 90.424 90)
 			(hide yes)
 			(show_name no)
@@ -3436,7 +3436,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CF12JT150R_Resistor_150:STA_CF12_STP"
 			(at 117.094 115.824 90)
 			(hide yes)
 			(show_name no)
