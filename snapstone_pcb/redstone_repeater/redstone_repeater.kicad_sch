@@ -1136,7 +1136,7 @@
 		)
 		(uuid "55499ad1-d4e6-41ac-aa93-b0c53166aef4")
 	)
-	(text "Rshunt = 10 Ω\n\ndV = (2 mA) * (10 Ω)\ndV = 20 mV\n\nVOUT = (R2/R1) * dV\nVOUT = (R2/R1) * (20 mV)\n\nCut-off voltage for MMBFJ270\nis 500 mV, so VOUT = 500 mV.\n500 mV = (R2/R1) * (20 mV)\nR2/R1 = 25.\n\nWe need to be careful that dV\nis high enough for our comparator\n(too low will require more precision)."
+	(text "Rshunt = 10 Ω\n\ndV = (5 mA) * (10 Ω)\ndV = 50 mV\n\nVOUT = (R2/R1) * dV\nVOUT = (R2/R1) * (50 mV)\n\nCut-off voltage for MMBFJ270\nis 500 mV, so VOUT = 500 mV.\n500 mV = (R2/R1) * (50 mV)\nR2/R1 = 10.\n\nWe need to be careful that dV\nis high enough for our comparator\n(too low will require more precision)."
 		(exclude_from_sim no)
 		(at 107.442 104.14 0)
 		(effects
@@ -2748,7 +2748,7 @@
 				)
 			)
 		)
-		(property "Value" "R2 = 300 kΩ"
+		(property "Value" "R2 = 100 kΩ"
 			(at 135.89 122.428 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3071,7 +3071,7 @@
 				)
 			)
 		)
-		(property "Value" "R1 = 12 kΩ"
+		(property "Value" "R1 = 10 kΩ"
 			(at 116.84 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3347,7 +3347,7 @@
 				)
 			)
 		)
-		(property "Value" "R1 = 12 kΩ"
+		(property "Value" "R1 = 10 kΩ"
 			(at 135.89 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3426,7 +3426,7 @@
 				)
 			)
 		)
-		(property "Value" "R2 = 300 kΩ"
+		(property "Value" "R2 = 100 kΩ"
 			(at 116.84 122.428 90)
 			(show_name no)
 			(do_not_autoplace no)
