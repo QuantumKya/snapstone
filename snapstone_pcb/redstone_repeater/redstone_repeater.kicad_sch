@@ -2921,7 +2921,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CF12JT150R_Resistor_150:STA_CF12_STP"
+		(property "Footprint" "CF12JT_Resistor_10_30_150_Ohms:STA_CF12_STP"
 			(at 133.096 67.056 90)
 			(hide yes)
 			(show_name no)
@@ -3277,7 +3277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CF12JT_Resistor_10_30_150_Ohms:STA_CF12_STP"
 			(at 104.394 103.886 90)
 			(hide yes)
 			(show_name no)
