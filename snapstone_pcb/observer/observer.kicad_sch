@@ -1098,7 +1098,7 @@
 				)
 			)
 		)
-		(property "Value" "NJFET"
+		(property "Value" "MMBFJ270_Analog_Switch"
 			(at 120.65 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1108,7 +1108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MMBFJ112_Analog_Switch:SOT-23_ONS"
+		(property "Footprint" "MMBFJ270_Analog_Switch:SOT-23_ONS"
 			(at 123.19 100.33 0)
 			(hide yes)
 			(show_name no)
