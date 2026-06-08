@@ -1,5 +1,5 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "2468_Battery_Holder")(type "KiCad")(uri "${SNAPSTONE_PARTS}/2468_Battery_Holder/2468_Battery_Holder.pretty")(options "")(descr ""))
-  (lib (name "CF12JT150R_Resistor_150")(type "KiCad")(uri "${SNAPSTONE_PARTS}/CF12JT150R_Resistor_150/CF12JT150R_Resistor_150.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "2468_Battery_Holder") (type "KiCad") (uri "${SNAPSTONE_PARTS}/2468_Battery_Holder/2468_Battery_Holder.pretty") (options "") (descr ""))
+	(lib (name "CF12JT_Resistor") (type "KiCad") (uri "${SNAPSTONE_PARTS}/CF12JT_Resistor/CF12JT_Resistor.pretty") (options "") (descr ""))
 )

@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "ZRE200GE_Motion_Sensor") (type "KiCad") (uri "${SNAPSTONE_PARTS}/ZRE200GE_Motion_Sensor/ZRE200GE_Motion_Sensor.pretty") (options "") (descr ""))
 	(lib (name "MMBFJ270_Analog_Switch") (type "KiCad") (uri "${SNAPSTONE_PARTS}/MMBFJ270_Analog_Switch/MMBFJ270_Analog_Switch.pretty") (options "") (descr ""))
+	(lib (name "CF12JT_Resistor") (type "KiCad") (uri "${SNAPSTONE_PARTS}/CF12JT_Resistor/CF12JT_Resistor.pretty") (options "") (descr ""))
 )

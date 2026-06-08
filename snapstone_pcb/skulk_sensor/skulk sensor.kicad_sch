@@ -1967,7 +1967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CF12JT_Resistor:STA_CF12_STP"
 			(at 182.626 109.474 90)
 			(hide yes)
 			(show_name no)
@@ -3161,7 +3161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CF12JT_Resistor:STA_CF12_STP"
 			(at 108.966 95.504 90)
 			(hide yes)
 			(show_name no)
