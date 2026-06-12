@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -110,9 +110,9 @@
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -153,7 +153,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -449,7 +449,6 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
-      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -489,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "redstone_block.kicad_pro",
+    "filename": "redstone_lamp.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -523,14 +522,10 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
-      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -641,24 +636,16 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
-    "space_save_all_events": true,
-    "spice_current_sheet_as_root": false,
-    "spice_external_command": "spice \"%I\"",
-    "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "redstone_block.kicad_sch",
-        "name": "redstone_block",
-        "uuid": "a21feee3-f94a-4c16-9306-59a893425ad2"
+        "filename": "redstone_lamp.kicad_sch",
+        "name": "Root",
+        "uuid": "2b8e2f92-c9af-4b44-90ee-cd7fb35a0b3a"
       }
     ],
     "used_designators": "",
@@ -666,8 +653,8 @@
   },
   "sheets": [
     [
-      "a21feee3-f94a-4c16-9306-59a893425ad2",
-      "redstone_block"
+      "2b8e2f92-c9af-4b44-90ee-cd7fb35a0b3a",
+      "Root"
     ]
   ],
   "text_variables": {},
