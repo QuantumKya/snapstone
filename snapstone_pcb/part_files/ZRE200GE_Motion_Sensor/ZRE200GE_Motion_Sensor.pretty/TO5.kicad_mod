@@ -1,27 +1,16 @@
 (footprint "TO5"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "<b>TO 5</b>")
 	(property "Reference" "REF**"
 		(at 0.635855 -5.722585 0)
 		(layer "F.SilkS")
-		(uuid "94b21fb9-6c94-4b14-9894-837d57bacc46")
+		(uuid "de636425-1505-491a-ad24-f1248169d063")
 		(effects
 			(font
 				(size 1.001331 1.001331)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Value" "TO5"
-		(at -1.271485 -0.000001 0)
-		(layer "F.Fab")
-		(uuid "b4516c58-c5ea-42ed-8d86-b2add7bd97c9")
-		(effects
-			(font
-				(size 1.001173 1.001173)
 				(thickness 0.15)
 			)
 		)
@@ -30,7 +19,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0bc6dea7-cd52-4a53-b9e0-d96228ae7bb7")
+		(uuid "dba8fca1-d100-46e8-8818-eba4466e133b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bf31a57a-4e4d-4f0f-84c3-f8b30fc78a36")
+		(uuid "4f6a6eb3-1126-4546-861b-9f59d478276c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,7 +39,19 @@
 			)
 		)
 	)
+	(property "Value" "TO5"
+		(at 0 5.909687 0)
+		(layer "F.Fab")
+		(uuid "9e3ac1ac-c6df-40b6-a1f7-0a9adf9f1de3")
+		(effects
+			(font
+				(size 1.001173 1.001173)
+				(thickness 0.15)
+			)
+		)
+	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.0386 3.5306)
 		(end -3.5052 2.9972)
@@ -59,7 +60,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "710041d9-3a45-42fa-a24f-61b9b2adac69")
+		(uuid "431259db-2fea-4670-b0a2-dfa6c90673fb")
 	)
 	(fp_line
 		(start -3.5052 4.064)
@@ -69,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "71c31b02-edff-432d-a0fb-0821b3f2426e")
+		(uuid "c3f584d6-31b4-4f85-a942-2fb9651b9129")
 	)
 	(fp_line
 		(start -2.9718 3.5306)
@@ -79,7 +80,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a8014c6e-9d89-42a6-bba3-1128cbafd50f")
+		(uuid "8ca22060-c326-491c-9154-f771d62ed45a")
 	)
 	(fp_circle
 		(center 0 0)
@@ -90,7 +91,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "52c8fcd3-79e4-4ba6-b21a-a52a9379a818")
+		(uuid "97cbd809-beaf-4d83-8705-ee19c1829d3d")
 	)
 	(fp_circle
 		(center 0 0)
@@ -101,7 +102,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "64002dd8-d5f4-4a6c-b2cd-773cf3ec732e")
+		(uuid "fc55d6d2-f13d-489e-b039-0fd9e2e847ea")
 	)
 	(pad "1" thru_hole circle
 		(at 0 2.54)
@@ -110,7 +111,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "0c3bace1-5466-448b-bc1f-3ebe52e7fcd6")
+		(uuid "7dbe46fa-90c6-4b06-a903-f615036ce2fd")
 	)
 	(pad "2" thru_hole circle
 		(at 2.54 0)
@@ -119,7 +120,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "96ddaffb-a955-4775-895f-cc3fe7b90b35")
+		(uuid "ae0a6024-e66f-42e1-a361-c55ddad31a09")
 	)
 	(pad "3" thru_hole circle
 		(at 0 -2.54)
@@ -128,7 +129,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "a6139d7a-7696-446d-9ece-13d245e82ba5")
+		(uuid "0997826f-8f3b-4a44-9f9c-6c51fb75f81d")
 	)
 	(embedded_fonts no)
 	(model "${SNAPSTONE_PARTS}/ZRE200GE_Motion_Sensor/ZRE200GE_Motion_Sensor.step"
